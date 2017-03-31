@@ -7,7 +7,7 @@ Confirm your VM's IP Address before starting the script so you know where to log
 The default username and password are applied, admin@admin.net and admin for the password
 
     sudo -i
-    sudo curl https://raw.githubusercontent.com/scottalanmiller/xenorchestra_installer/master/xo_install.sh | bash
+    sudo curl https://raw.githubusercontent.com/mallouris/xenorchestra_installer/master/xo_install.sh | bash
     
     
     
