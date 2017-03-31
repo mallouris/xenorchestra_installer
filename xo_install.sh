@@ -16,6 +16,7 @@ cd /opt/xo-server
 sudo yarn install --force
 cd /opt/xo-web
 sudo yarn install --force
+cd /opt/xo-server
 sudo cp sample.config.yaml .xo-server.yaml
 sudo sed -i /mounts/a\\"    '/': '/opt/xo-web/dist'" .xo-server.yaml
 sudo cp xo-server.service /etc/systemd/system/xo-server.service
